@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "synthetic": true,
+  "as_of": "2026-10-06",
+  "description": "Additional synthetic eligible cases designed for G2 multi-weight sensitivity, ranking shift, and decision stability evaluation.",
+  "cases": [
+    {
+      "id": "case-high-auth-news",
+      "statement": "Primary agency announces updated cloud infrastructure security posture.",
+      "metadata": {
+        "source_type": "primary_authority",
+        "content_type": "news",
+        "published_at": "2026-10-03",
+        "event_date": "2026-10-02",
+        "effective_from": null,
+        "last_verified_at": "2026-10-06",
+        "current_status": "current",
+        "supported": true,
+        "superseded": false,
+        "contradiction": false,
+        "competitor_product_claim": false
+      },
+      "expected_decision": "pass"
+    },
+    {
+      "id": "case-secondary-authoritative-regulation",
+      "statement": "Regional oversight board codifies mandatory resilience guidelines.",
+      "metadata": {
+        "source_type": "secondary_authority",
+        "content_type": "regulation",
+        "published_at": "2026-10-01",
+        "event_date": "2026-10-01",
+        "effective_from": "2026-10-01",
+        "last_verified_at": "2026-10-06",
+        "current_status": "current",
+        "supported": true,
+        "superseded": false,
+        "contradiction": false,
+        "competitor_product_claim": false
+      },
+      "expected_decision": "pass"
+    },
+    {
+      "id": "case-borderline-community-report",
+      "statement": "Community field study provides audit data regarding multi-region deployment latency.",
+      "metadata": {
+        "source_type": "user_generated",
+        "content_type": "official_report",
+        "published_at": "2026-10-04",
+        "event_date": "2026-10-04",
+        "effective_from": null,
+        "last_verified_at": "2026-10-06",
+        "current_status": "current",
+        "supported": true,
+        "superseded": false,
+        "contradiction": false,
+        "competitor_product_claim": false
+      },
+      "expected_decision": "pass"
+    }
+  ]
+}
